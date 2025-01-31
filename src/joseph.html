@@ -9,11 +9,11 @@
 <body>
 
     <div class="max-w-[1440px] mx-auto">
-        <header class="flex flex-col ">
+        <header class="lg:h-[100vh] flex flex-col gap-1 lg:gap-[110px]">
             <nav class="flex items-center justify-between px-[5%] py-5 font-[300] border-b-[1px] border-[#F2F2F2]">
                 <img src="./Joseph-Images/logo(1).png" alt="">
                 <div class="flex items-center justify-between gap-5">
-                    <ul class="flex gap-10 text-[18px]">
+                    <ul class="hidden lg:flex gap-10 text-[18px]">
                         <li><a href="#">Об авторе</a></li>
                         <li><a href="#">Книги</a></li>
                         <li><a href="#">Комплекты</a></li>
@@ -21,11 +21,29 @@
                         <li><a href="#">Медиа</a></li>
                         <li><a href="#">О нас</a></li>
                     </ul>
-                    <button class="text-[20px] py-2 px-[35px] bg-[#F8F8F8]">О доставке</button>
+                    <button class="hidden lg:block text-[20px] py-2 px-[35px] bg-[#F8F8F8]">О доставке</button>
+                    <div class="flex flex-col gap-1 bg-[#F8F8F8] p-3">
+                        <hr class="w-[20px] h-[2px] bg-black border-none">
+                        <hr class="w-[20px] h-[2px] bg-black border-none">
+                        <hr class="w-[20px] h-[2px] bg-black border-none">
+                    </div>
                     <hr class="w-[1px] h-10 bg-[#F2F2F2] border-none">
                     <img src="./Joseph-Images/shop.png" alt="">
                 </div>
             </nav>
+            <section class="flex items-end justify-evenly gap-8 px-[5%] lg:pt-[140px] lg:pb-[88px] bg-[url('./Joseph-Images/bg.jpg')] bg-center bg-cover bg-no-repeat">
+                <aside class="flex flex-col items-start gap-22">
+                    <div class="flex flex-col gap-10">
+                        <h1 class="text-[30px] lg:text-[60px] text-[#3B3B3B] font-[700]">Вайшнавизм</h1>
+                        <p class="lg:max-w-[590px] text-[#676767] text-[16px] lg:text-[36px]">одно из основных направлений индуизма отличительной особенностью которого является поклонение Вишну и его аватарам</p>
+                    </div>
+                    <p class="text-[#3B3B3B] text-[18px] lg:text-[36px] font-[600]">Часть 1</p>
+                </aside>
+                <div class="flex flex-col gap-2">
+                    <p class="text-[#818181] text-[18px] lg:text-[36px]">Автор</p>
+                    <a class="text-[#3B3B3B] text-[20px] lg:text-[40px]" href="#">Андрей Рублёв</a> 
+                </div>
+            </section>
         </header>
     </div>
     
